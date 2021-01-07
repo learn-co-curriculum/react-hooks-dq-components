@@ -12,10 +12,18 @@ components:
 
 ![yelp components](yelp-components.png)
 
-Once you've decided on your component hierarchy, it's time to start coding!,
-Starting from the `App` component, add all the necessary components in place.
-For example, if you decided to put the `TopMenu` in the `App` component, here's
-how it would look:
+Once you've decided on your component hierarchy, it's time to start coding!
+
+First, run the application in the browser:
+
+```sh
+npm install
+npm start
+```
+
+Starting from the `App` component, add all the necessary components based on
+your component hierarchy. For example, if you decided to put the `TopMenu` in
+the `App` component, here's how it would look:
 
 ```js
 import React from "react";
@@ -32,6 +40,9 @@ function App() {
 export default App;
 ```
 
+Make sure to check your progress in the browser as you start adding components
+and work on getting your app to match the demo image.
+
 ## Bonus
 
 If you finish early, have a look at the `AlbumList` component. You'll notice there is an array of album data being imported in this file:
@@ -42,3 +53,6 @@ import { albums } from "../data/albums";
 
 See if you can use this array to dynamically generate the `Album` components
 instead of hard-coding them.
+
+If you get a warning about the `key` prop, check out the React docs on
+[Lists and Keys](https://reactjs.org/docs/lists-and-keys.html).
