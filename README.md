@@ -1,10 +1,12 @@
 # Discussion Questions: Components
 
-Get together in groups and clone down this repository. Your goal for this discussion question is to recreate the app in this demo image:
+Get together in groups and clone down this repository. Your goal for this
+discussion question is to recreate the app in this demo image:
 
 ![demo](https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-dq-components/master/demo.png)
 
-The components are already provided for you, it's your job to put them all together!
+The components are already provided for you in the `src/components` folder. It's
+your job to put them all together!
 
 Start by discussing the image of the demo app and decide what components belong
 where. For example, here's how you might break up a site like Yelp into
