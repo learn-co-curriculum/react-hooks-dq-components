@@ -2,7 +2,7 @@ import React from "react";
 import AlbumList from "./AlbumList";
 import GenrePicker from "./GenrePicker";
 
-function AlbumsContainer() {
+function MainContent() {
   return (
     <main>
       <GenrePicker />
@@ -11,4 +11,4 @@ function AlbumsContainer() {
   );
 }
 
-export default AlbumsContainer;
+export default MainContent;

@@ -1,5 +1,5 @@
 import React from "react";
-import AlbumsContainer from "./AlbumsContainer";
+import MainContent from "./MainContent";
 import SideMenu from "./SideMenu";
 import TopMenu from "./TopMenu";
 
@@ -8,7 +8,7 @@ function App() {
     <div className="app-container">
       <TopMenu />
       <SideMenu />
-      <AlbumsContainer />
+      <MainContent />
     </div>
   );
 }

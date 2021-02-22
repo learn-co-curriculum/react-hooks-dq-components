@@ -1,6 +1,6 @@
 import React from "react";
 
-function Album({ name, image, genre }) {
+function AlbumCard({ name, image, genre }) {
   return (
     <div className="card">
       <div className="image">
@@ -24,4 +24,4 @@ function Album({ name, image, genre }) {
   );
 }
 
-export default Album;
+export default AlbumCard;

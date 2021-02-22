@@ -1,11 +1,11 @@
 import React from "react";
-import Album from "./Album";
+import AlbumCard from "./AlbumCard";
 import { albums } from "../data/albums";
 
 function AlbumList() {
   const albumItems = albums.map((album) => {
     return (
-      <Album
+      <AlbumCard
         key={album.id}
         name={album.name}
         image={album.image}
