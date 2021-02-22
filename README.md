@@ -24,17 +24,19 @@ npm start
 ```
 
 Starting from the `App` component, add all the necessary components based on
-your component hierarchy. For example, if you decided to put the `TopMenu` in
-the `App` component, here's how it would look:
+your component hierarchy. For example, if you decided to put the `TopMenu` and
+`SideMenu` in the `App` component, here's how it would look:
 
 ```js
 import React from "react";
 import TopMenu from "./TopMenu";
+import SideMenu from "./SideMenu";
 
 function App() {
   return (
     <div className="app-container">
       <TopMenu />
+      <SideMenu />
     </div>
   );
 }
@@ -56,5 +58,5 @@ import { albums } from "../data/albums";
 See if you can use this array to dynamically generate the `Album` components
 instead of hard-coding them.
 
-If you get a warning about the `key` prop, check out the React docs on
-[Lists and Keys](https://reactjs.org/docs/lists-and-keys.html).
+Check out the React docs on
+[Lists and Keys](https://reactjs.org/docs/lists-and-keys.html) for a hint!.

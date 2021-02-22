@@ -1,7 +1,7 @@
 import React from "react";
 
-function AlbumsContainer() {
+function MainContent() {
   return <main>{/* What components go here? */}</main>;
 }
 
-export default AlbumsContainer;
+export default MainContent;
