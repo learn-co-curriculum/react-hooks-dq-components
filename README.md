@@ -18,9 +18,9 @@ Once you've decided on your component hierarchy, it's time to start coding!
 
 First, run the application in the browser:
 
-```sh
-npm install
-npm start
+```console
+$ npm install
+$ npm start
 ```
 
 Starting from the `App` component, add all the necessary components based on
