@@ -49,7 +49,8 @@ and work on getting your app to match the demo image.
 
 ## Bonus
 
-If you finish early, have a look at the `AlbumList` component. You'll notice there is an array of album data being imported in this file:
+If you finish early, have a look at the `AlbumList` component. You'll notice
+there is an array of album data being imported in this file:
 
 ```js
 import { albums } from "../data/albums";
