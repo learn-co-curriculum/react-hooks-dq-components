@@ -26,7 +26,7 @@ const albums = [
     id: 4,
     name: "Scary Music for Dogs",
     image:
-      "https://animalsmagnets.ergoiamtoo.com/image/cache/data/magnets/boxer-dog-afraid-of-vacuum-cleaner-magnet-700x700.jpg",
+      "https://static.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Album_Cover-Aloha_K.K..png/revision/latest/scale-to-width-down/512?cb=20200502231742",
     inLibrary: true,
     genre: "Dogs",
   },
