@@ -1,8 +1,12 @@
 import React from "react";
-
+import Logo from "./Logo";
+import MenuLink from "./MenuLinks";
 function SideMenu() {
   return (
-    <aside className="side-bar open">{/* What components go here? */}</aside>
+    <aside className="side-bar open">
+      <Logo />
+      <MenuLink />
+    </aside>
   );
 }
 
