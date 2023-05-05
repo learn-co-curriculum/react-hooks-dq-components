@@ -24,21 +24,13 @@ const albums = [
   },
   {
     id: 4,
-    name: "Scary Music for Dogs",
-    image:
-      "https://static.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Album_Cover-Aloha_K.K..png/revision/latest/scale-to-width-down/512?cb=20200502231742",
-    inLibrary: true,
-    genre: "Dogs",
-  },
-  {
-    id: 5,
     name: "Scary Music for Cats",
     image: "https://img.zergnet.com/2564012_300.jpg",
     inLibrary: true,
     genre: "Cats",
   },
   {
-    id: 6,
+    id: 5,
     name: "Soothing Sleepytime Sounds",
     image:
       "https://cdn.shopify.com/s/files/1/1814/0429/products/shakers-maracas-rattles-wooden-maracas-1263833251881_580x.jpg?v=1575933159",
@@ -46,14 +38,14 @@ const albums = [
     genre: "Snakes",
   },
   {
-    id: 7,
+    id: 6,
     name: "Pet Sounds",
     image: "https://upload.wikimedia.org/wikipedia/en/b/bb/PetSoundsCover.jpg",
     inLibrary: true,
     genre: "Goats",
   },
   {
-    id: 8,
+    id: 7,
     name: "Aloha K.K.",
     image:
       "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Album_Cover-Aloha_K.K..png/revision/latest?cb=20200502231742",
